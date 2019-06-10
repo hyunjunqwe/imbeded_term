@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:title="Kakao"
+        android:id="@+id/action_kakao"
+        android:icon="@drawable/kakaotalk_icon"
+        app:showAsAction="always"/>
+    <item
+        android:title="Picture"
+        android:icon="@drawable/kakao_login_symbol"
+        android:id="@+id/action_picture"
+        app:showAsAction="always"/>
+</menu>

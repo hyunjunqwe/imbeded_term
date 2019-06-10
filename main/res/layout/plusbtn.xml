@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/image5"
+    android:padding="7dip">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backpoin1"
+        android:stateListAnimator="@null" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_alignBaseline="@id/edit_text1"
+
+        android:text="품목"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:layout_alignBaseline="@id/edit_text2"
+        android:text="갯수"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textview1"
+        android:layout_below="@id/button"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text1"
+        android:layout_toRightOf="@id/textview2" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:text="저장"
+        android:textColor="#F5ECEC"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
